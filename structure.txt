@@ -1,0 +1,30 @@
+.
+|-- config
+|   |-- app.js
+|   |-- database.js
+|   `-- redis.js
+|-- controllers
+|   |-- cartController.js
+|   `-- productController.js
+|-- middleware
+|   |-- authMiddleware.js
+|   |-- cacheMiddleware.js
+|   |-- errorMiddleware.js
+|   `-- validationMiddleware.js
+|-- models
+|   |-- cartModel.js
+|   |-- orderModel.js
+|   `-- productModel.js
+|-- routes
+|   |-- cartRoutes.js
+|   `-- productRoutes.js
+|-- utils
+|   |-- errorHandler.js
+|   `-- seedData.js
+|-- app.js
+|-- package-lock.json
+|-- package.json
+|-- README.md
+`-- structure.txt
+
+7 directories, 21 files

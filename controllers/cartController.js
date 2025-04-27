@@ -325,11 +325,9 @@ export const checkout = catchAsync(async (req, res) => {
     await session.commitTransaction();
     session.endSession();
     
-    // Invalidate caches
     await req.delAsync(`cart:${userId}`);
     await req.delAsync('products:*');
     
-    // Release lock
     await req.delAsync(lockKey);
     
     res.status(201).json({

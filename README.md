@@ -42,7 +42,7 @@ A simple yet robust shopping-cart backend built with Node.js, Express, MongoDB a
 
 1. Clone this repo
    ```bash
-   git clone https://github.com/your-username/shopping-cart-api.git
+   git clone https://github.com/mekzy-o/shopping-cart-api.git
    cd shopping-cart-api
    ```
 
@@ -58,7 +58,7 @@ Create a `.env` file in the project root with:
 ```
 PORT=3000
 NODE_ENV=development
-MONGODB_URI=mongodb://localhost:27017/shopping-cart
+MONGODB_URI=mongodb://localhost:27017/shopping-cart 
 REDIS_URL=redis://localhost:6379
 ```
 

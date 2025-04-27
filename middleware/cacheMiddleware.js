@@ -27,7 +27,6 @@ const cacheMiddleware = (ttl = 300) => {
           }
         }
         
-        // Call original send method
         originalSend.call(this, body);
       };
       
